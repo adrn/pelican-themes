@@ -8,16 +8,14 @@
 }
 
 .aw-footer {
-    margin-top: 2em;
-    border-top: 2px solid lightgrey;
-    border-bottom: 2px solid lightgrey;
+    margin-top: 1em;
 /*    height: 250px;*/
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .aw-footer li {
-    line-height: 200%;
+    line-height: 150%;
 }
 
 .summary {
@@ -101,4 +99,55 @@ div.collapseheader {
 	padding: 2px;
 	cursor: pointer;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*
+    New classes
+*/
+.bg-grey {
+    background-color: #eeeeee !important;
+}
+
+
+/*
+    Overrides
+*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #555555;
+}
+
+a, a:visited, a:active {
+    color: #777777;
+}
+
+a:hover {
+    color: #333333;
+    text-decoration: underline;
+    -moz-text-decoration-color: #d9230f; /* Code for Firefox */
+    -webkit-text-decoration-color: #d9230f; /* Code for WebKit */
+    text-decoration-color: #d9230f;
+}
+
+.page-header {
+    border-bottom-color: #aaaaaa !important;
+}
+
+.page-header h1 a {
+    color: #333333;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 42px !important;
+}
+
+.page-header h1 a:hover {
+    text-decoration: none;
+}
+
+.page-header h1 small a {
+    color: #777777 !important;
+}
+
+.aw-footer h4 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bbbbbb;
 }
