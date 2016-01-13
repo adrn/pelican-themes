@@ -75,9 +75,9 @@ pre.ipynb {
 }
 
 /* remove the prompt div from text cells */
-/*.prompt {
+.prompt {
 	display: none;
-}*/
+}
 
 /* remove horizontal padding from text cells, */
 /* so it aligns with outer body text */
